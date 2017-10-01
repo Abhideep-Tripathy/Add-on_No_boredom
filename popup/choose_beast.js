@@ -20,16 +20,22 @@ function beastNameToURL(beastName) {
    browser.tabs.update({url: "http://yeahboi.me/"});
    break;
 
-   case "CHECK UR PLAN":
+   case "WEATHER":
    browser.tabs.update({url: "https://www.accuweather.com/en/in/india-weather"});
    break;
+
+   case "CHECK UR PLAN":
+   browser.tabs.update({url: "https://calendar.google.com/calendar"});
+   break;
+
+
 
   }
 }
 
 /*
 Listen for clicks in the popup.
-
+https://calendar.google.com/calendar
 If the click is on one of the beasts:
   Inject the "beastify.js" content script in the active tab.
 

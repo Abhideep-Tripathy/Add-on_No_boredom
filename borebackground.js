@@ -40,9 +40,8 @@ function restartAlarm(tabId) {
   browser.alarms.clearAll();
   var gettingTab = browser.tabs.get(tabId);
   gettingTab.then((tab) => {
-    if (tab.url != CATGIFS) {
-      browser.alarms.create("", {delayInMinutes: DELAY});
-    }
+   browser.alarms.create("", {delayInMinutes: DELAY});
+    
   });
 }
 
