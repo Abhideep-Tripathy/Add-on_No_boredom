@@ -1,0 +1,31 @@
+html, body {
+  width: 100px;
+  background-color: black;
+}
+
+.button {
+
+  border-radius: 7px;
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+  color: black;
+  
+}
+
+.beast:hover {
+  background-color: #CFF2F2;
+}
+
+.beast {
+  background-color: #3399FF;
+}
+.clear {
+  background-color: #FFFF66;
+}
+
+.clear:hover {
+  background-color: #FBFBC9 ;
+}
